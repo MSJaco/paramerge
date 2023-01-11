@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Clothing</title>
+
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Lilita One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/7558ce1d8d.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles1Home.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <article class="header-tres">
+            <img class="logo" src="/img/logo-HC2.png" alt="logo">
+            <div class="buscador-bar">
+                <input class="buscador" type="search" name="busqueda" placeholder="Buscar...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <form class="categoria-pais" action="" method="get">
+                <select name="pais">
+                    <option value="argentina"> Argentina </option>
+                    <option value="brasil"> Brasil </option>
+                    <option value="canada"> Canadá </option>
+                    <option value="eeuu"> EEUU </option>
+                    <option value="eu"> EU </option>
+                    <option value="japon"> Japón </option>
+                    <option value="otro"> Otro </option>
+                </select>
+            </form>
+
+
+            <div class="carrito">
+                <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="user">
+                <a href="/login"><i class="fas fa-user-circle"></i></a>
+            </div>
+
+        </article>
+
+        <nav>
+            <ul>
+                <li type="none"> <a href="#"> Inicio </a> </li>
+                <li type="none"> <a href="#"> Nosotros </a> </li>
+                <li type="none"> <a href="#"> Productos </a> </li>
+                <li type="none"> <a href="#"> Contacto </a> </li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+
+    <h3 class="titulares"> Productos Destacados</h3>
+
+    <section class="separador1">
+      <hr class="linea-divisoria1">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href='/description-page'><img src="/img/textura-negra-fondo_1160-614.webp" class="d-block w-100" alt="fondo1"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 1</h5>
+              <p>Lorem ipsum del lorem impsum, pero lorem ipsum, ojo con lorem del impsum, pero lorem.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href='/description-page'><img src="/img/textura-negra-fondo_1160-614.webp" class="d-block w-100" alt="fondo2"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 2</h5>
+              <p>Lorem ipsum del lorem impsum, pero lorem ipsum, ojo con lorem del impsum, pero lorem.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href='/description-page'><img src="/img/textura-negra-fondo_1160-614.webp" class="d-block w-100" alt="fondo3"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 3</h5>
+              <p>Lorem ipsum del lorem impsum, pero lorem ipsum, ojo con lorem del impsum, pero lorem.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr class="linea-divisoria2">
+    </section>
+
+
+    <section class="separador2">
+      <article class="cuadrado-gris"> <a href=""><i class="fa-solid fa-arrow-left"></i> <label>Productos</label></a></article>
+      <article class="cuadrado-gris"> <a href=""><label>Indumentaria</label> <i class="fa-solid fa-arrow-right"></i></a></article>
+      <article class="cuadrado-gris"> <a href=""><i class="fa-solid fa-arrow-left"></i> <label>Calzado</label></a></article>
+      <article class="cuadrado-gris"> <a href=""><label>Accesorios</label> <i class="fa-solid fa-arrow-right"></i></a></article>
+      <div class="todos"><a href="">Ver todos</a></div>
+    </section>
+
+    <section class="separador3">
+      <article class="cuadrado1"> <a class="izq1" href=""><i class="fa-solid fa-arrow-left"></i> <label>Productos</label></a></article>
+      <article class="cuadrado2"> <a class="der1" href=""><label>Indumentaria</label> <i class="fa-solid fa-arrow-right"></i></a></article>
+      <article class="cuadrado3"> <a class="izq2"href=""><i class="fa-solid fa-arrow-left"></i> <label>Calzado</label></a></article>
+      <article class="cuadrado4"> <a class="der2" href=""><label>Accesorios</label> <i class="fa-solid fa-arrow-right"></i></a></article>
+      <div class="todos"><a href="">Ver todos</a></div>
+    </section> 
+    <hr>
+
+    <div class="conocenos-mas">
+      <div class="cuerpo-de-texto">
+        <i class="fa-solid fa-quote-left"></i>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta, assumenda
+              deleniti blanditiis dignissimos natus eaque modi ipsa cupiditate nam expedita eum nostrum
+              illo non! Magnam consequatur quis quibusdam animi!</p>
+          <h6>Fulanito</h6>
+          <h6>Ceo de House Clothing</h6>
+      </div>
+  </div>
+
+    </main>
+    <hr>
+    
+    <footer>
+
+        <div class="contenedor-footer">
+
+       <div class="top-nav">
+                <ul>
+                    <li class="inicio" type="none"><a href="#">Inicio</a></li>
+                    <li type="none"><a href="#">Nosotros</a></li>
+                    <li type="none"><a href="#">Productos</a></li>
+                </ul>
+        </div>
+        
+            <div class="bottom-nav">
+                <p>Contactanos</p>
+                <input class="footer-menu" type="email" placeholder="tu email">
+                <button type="submit">Suscribite</button>
+            </div>
+
+            <div class="linea-divisoria4">
+
+            <div class="social-network">
+                <ul>
+                    <li type="none"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li type="none"><a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li type="none"><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,1199 @@
+:root {
+    --dark-violet: #242F62;
+    --gray-violet: #394476;
+    --light-violet: #8000FF;
+    --salmon: #FF715B;
+    --light-gray: #EDF2F4;
+    --white: #FFFFFF;
+}
+
+
+body {
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-color: #242F62;
+    height: 80%;
+}
+
+.logo {
+    width: 35%;
+}
+
+.carrito i {
+    color: #FF715B;
+    display: inline;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.carrito {
+    margin-top: 4.5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.burger-menu {
+    background-color: #394476;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+}
+
+.fa-bars {
+    color: #FF715B;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 15%;
+}
+
+.contenedor-main {
+
+    border: 2px dotted orange;
+}
+
+.top-main {
+    border: 2px dotted blue;
+}
+
+.top-main p {
+
+    margin-top: 10px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom-main {
+    border: 2px dotted white;
+
+}
+
+.campos-de-texto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.campos-de-texto input {
+
+    margin: 10px 0px;
+}
+
+.botonera {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonera a{
+
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+@media (max-width: 425px) {
+
+    .categoria-pais {
+        display: none;
+    }
+
+    main section article h4,
+    nav ul {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .header-tres {
+        margin: 0px 20px 5px 0px;
+        padding: 30px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        width: 20%;
+        margin-left: 32px;
+    }
+
+    .buscador-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-right: 3px;
+        padding: 0px 15px;
+    }
+
+    .buscador-bar input {
+        padding: 7px;
+        width: 100%;
+        border-radius: 1.8ch;
+        outline: none;
+    }
+
+    .buscador-bar i {
+        position: absolute;
+        font-size: 10px;
+        right: 23px;
+        top: 9px;
+        font-weight: bold;
+        color: #FF715B;
+    }
+
+    .buscador {
+        display: inline;
+        font-family: 'Montserrat', sans-serif;
+        ;
+        font-size: 10px;
+        border: solid 1px #ebebeb;
+        align-items: center;
+    }
+
+    .carrito i {
+        color: #FF715B;
+        display: inline;
+        font-size: 18px;
+        padding-right: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .carrito {
+        margin-top: 4.5px;
+    }
+
+    footer {
+        background-color: #242F62;
+    }
+    
+    .contenedor-footer {
+        margin: 0px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 24px 35px 30px 10px;
+    }
+
+    .top-nav li a {
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 1ch;
+        padding: 8px 15px;
+        border-top: solid 2px #8000FF;
+        border-bottom: solid 2px #8000FF;
+        border-radius: 1.5ch;
+    }
+
+
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav p {
+        position: relative;
+        display: inline-flex;
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 13px;
+        margin: 0px 0px 0px 25px;
+        align-items: center;
+    }
+
+    .bottom-nav input {
+        position: relative;
+        width: 300px;
+        background-color: black;
+        color: #EDF2F4;
+        border: solid 1px black;
+        border-radius: 2ch;
+        left: 7px;
+        z-index: 5;
+        padding: 2px 0px 1.5px 5px;
+        font-size: 13px;
+    }
+
+    .bottom-nav button {
+        position: relative;
+        width: 35%;
+        background-color: #8000FF;
+        color: #EDF2F4;
+        border-radius: 2ch;
+        border: solid 1px #8000FF;
+        z-index: 10;
+        font-size: 14px;
+        right: 20px;
+    }
+
+    .linea-divisoria4 {
+        border: 0;
+        height: 12px;
+        margin: 25px 0px;
+        box-shadow: inset 0 12px 12px -12px #EDF2F4;
+    }
+
+
+    .social-network ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 26px 20px 0px;
+    }
+
+    .social-network ul li {
+        margin: 0px 30px;
+        padding-right: 10px;
+    }
+
+    .inicio{
+        padding-right: 3px;
+    }
+
+    .social-network ul li i {
+        color: #FF715B;
+    }
+
+}
+
+@media (min-width: 426px) {
+
+    .burger-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    header {
+        height: 170px;
+    }
+
+    .header-tres {
+        margin: 0px 20px 5px 0px;
+        padding: 30px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline-flex;
+        width: 22%;
+        margin-left: 25px;
+    }
+
+    .buscador-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .buscador-bar input {
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+        padding-left: 5px;
+        width: 250px;
+        height: 33px;
+        border-radius: 1ch;
+    }
+
+    .buscador-bar i {
+        position: absolute;
+        font-size: 13px;
+        right: 20px;
+        top: 10px;
+        font-weight: bold;
+        color: #FF715B;
+    }
+
+    .buscador {
+        display: inline;
+        font-family: "Roboto", "sans-serif";
+        font-size: 13px;
+        border: solid 1px #ebebeb;
+        align-items: center;
+    }
+
+    .categoria-pais {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .carrito i {
+        color: #FF715B;
+        display: inline-flex;
+        font-size: 23.8px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .carrito {
+        margin-top: 4.5px;
+    }
+
+    .user i {
+        display: inline-flex;
+        color: #414d86;
+        font-size: 23.8px;
+        margin-right: 15px;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav {
+        background-color: #394476;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-bottom: 20px;
+        padding: 10px 0px;
+    }
+
+    nav ul li {
+        display: inline-flex;
+        justify-content: space-around;
+        margin: 0px 30px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+
+    nav ul li a {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contenedor-main {
+        margin-top: 50px;
+        border: 2px dotted violet;
+    }
+
+    footer {
+        background-color: #242F62;
+    }
+
+    .contenedor-footer {
+        margin: 0px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 24px 35px 30px 10px;
+    }
+
+    .top-nav li a {
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 1ch;
+        padding: 8px 20px;
+        border-top: solid 2px #8000FF;
+        border-bottom: solid 2px #8000FF;
+        border-radius: 1.5ch;
+    }
+
+
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav p {
+        position: relative;
+        display: inline-flex;
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 18px;
+        margin: 0px 20px 2px 20px;
+        align-items: center;
+    }
+
+    .bottom-nav input {
+        position: relative;
+        width: 220px;
+        background-color: black;
+        color: #EDF2F4;
+        border: solid 1px black;
+        border-radius: 2ch;
+        left: 18px;
+        z-index: 5;
+        padding: 5px 0px 5px 5px;
+        font-size: 13px;
+    }
+
+    .bottom-nav button {
+        position: relative;
+        width: 100px;
+        background-color: #8000FF;
+        color: #EDF2F4;
+        border-radius: 2ch;
+        border: solid 1px #8000FF;
+        z-index: 10;
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+
+    .linea-divisoria4 {
+        border: 0;
+        height: 12px;
+        margin: 25px 0px;
+        box-shadow: inset 0 12px 12px -12px #EDF2F4;
+    }
+
+
+    .social-network ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 26px 20px 0px;
+    }
+
+    .social-network ul li {
+        margin: 0px 30px;
+        padding-right: 10px;
+    }
+
+    .inicio{
+        padding-right: 3px;
+    }
+
+    .social-network ul li i {
+        color: #FF715B;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    header {
+        height: 220px;
+    }
+
+    .header-tres {
+        margin: 0px 20px 5px 0px;
+        padding: 30px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline-flex;
+        width: 18%;
+        margin-left: 25px;
+    }
+
+    .buscador-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .buscador-bar input {
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+        padding-left: 5px;
+        width: 250px;
+        height: 33px;
+        border-radius: 1ch;
+    }
+
+    .buscador-bar i {
+        position: absolute;
+        font-size: 13px;
+        right: 20px;
+        top: 10px;
+        font-weight: bold;
+        color: #FF715B;
+    }
+
+    .buscador {
+        display: inline;
+        font-family: "Roboto", "sans-serif";
+        font-size: 13px;
+        border: solid 1px #ebebeb;
+        align-items: center;
+    }
+
+    .categoria-pais {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .carrito i {
+        color: #FF715B;
+        display: inline-flex;
+        font-size: 23px;
+        margin-left: 12px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .carrito {
+        margin-top: 4.5px;
+    }
+
+    .user i {
+        display: inline-flex;
+        color: #414d86;
+        font-size: 25px;
+        margin-right: 35px;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav {
+        background-color: #394476;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        display: inline-flex;
+        margin-bottom: 30px;
+    }
+
+    nav ul li {
+        display: inline-flex;
+        justify-content: space-around;
+        margin: 13px 30px 0px 30px;
+        padding-right: 20px;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .contenedor-main {
+        margin-top: 0px;
+        border: 2px dotted violet;
+    }
+
+    footer {
+        background-color: #242F62;
+    }
+
+    .contenedor-footer {
+        margin: 0px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 24px 35px 30px 10px;
+    }
+
+    .top-nav li a {
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 0.5ch;
+        padding: 8px 30px;
+        border-top: solid 2px #8000FF;
+        border-bottom: solid 2px #8000FF;
+        border-radius: 1.5ch;
+    }
+
+
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav p {
+        position: relative;
+        display: inline-flex;
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 18px;
+        margin: 0px 20px 2px 20px;
+        align-items: center;
+    }
+
+    .bottom-nav input {
+        position: relative;
+        width: 220px;
+        background-color: black;
+        color: #EDF2F4;
+        border: solid 1px black;
+        border-radius: 2ch;
+        left: 15px;
+        z-index: 5;
+        padding: 5px 0px 5px 5px;
+        font-size: 13px;
+    }
+
+    .bottom-nav button {
+        position: relative;
+        width: 100px;
+        background-color: #8000FF;
+        color: #EDF2F4;
+        border-radius: 2ch;
+        border: solid 1px #8000FF;
+        z-index: 10;
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+
+    .linea-divisoria4 {
+        border: 0;
+        height: 12px;
+        margin: 25px 0px;
+        box-shadow: inset 0 12px 12px -12px #EDF2F4;
+    }
+
+
+    .social-network ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 26px 20px 0px;
+    }
+
+    .social-network ul li {
+        margin: 0px 30px;
+        padding-right: 10px;
+    }
+
+    .inicio{
+        padding-right: 3px;
+    }
+
+    .social-network ul li i {
+        color: #FF715B;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .burger-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    header {
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .header-tres {
+        margin: 0px 20px 5px 0px;
+        padding: 50px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline-flex;
+        width: 18%;
+        margin-left: 25px;
+    }
+
+    .buscador-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .buscador-bar input {
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+        padding-left: 10px;
+        width: 270px;
+        height: 33px;
+        border-radius: 1ch;
+    }
+
+    .buscador-bar i {
+        position: absolute;
+        font-size: 13px;
+        right: 18px;
+        top: 10px;
+        font-weight: bold;
+        color: #FF715B;
+    }
+
+    .buscador {
+        display: inline;
+        font-family: "Roboto", "sans-serif";
+        font-size: 13px;
+        border: solid 1px #ebebeb;
+        align-items: center;
+    }
+
+    .categoria-pais {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .carrito i {
+        color: #FF715B;
+        display: inline-flex;
+        font-size: 28px;
+        margin-left: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .carrito {
+        margin-top: 4.5px;
+    }
+
+    .user i {
+        display: inline-flex;
+        color: #414d86;
+        font-size: 30px;
+        margin-right: 30px;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav {
+        background-color: #394476;
+        height: 50px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        display: inline-flex;
+        margin-bottom: 0px;
+        margin-left: 80px;
+        padding: 10px 0px;
+    }
+
+    nav ul li {
+        justify-content: space-around;
+        padding-right: 22px;
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+    footer {
+        background-color: #242F62;
+    }
+
+    .contenedor-footer {
+        margin: 0px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 24px 35px 30px 10px;
+    }
+
+    .top-nav li a {
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 1ch;
+        padding: 8px 15px;
+        border-top: solid 2px #8000FF;
+        border-bottom: solid 2px #8000FF;
+        border-radius: 1.5ch;
+    }
+
+
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav p {
+        position: relative;
+        display: inline-flex;
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .bottom-nav input {
+        position: relative;
+        width: 30%;
+        background-color: black;
+        color: #EDF2F4;
+        border: solid 1px black;
+        border-radius: 2ch;
+        left: 15px;
+        z-index: 5;
+        padding: 2px 0px 1.5px 5px;
+        font-size: 13px;
+    }
+
+    .bottom-nav button {
+        position: relative;
+        width: 35%;
+        background-color: #8000FF;
+        color: #EDF2F4;
+        border-radius: 2ch;
+        border: solid 1px #8000FF;
+        z-index: 10;
+        font-size: 14px;
+    }
+
+    .linea-divisoria4 {
+        border: 0;
+        height: 12px;
+        margin: 25px 0px;
+        box-shadow: inset 0 12px 12px -12px #EDF2F4;
+    }
+
+
+    .social-network ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 26px 20px 0px;
+    }
+
+    .social-network ul li {
+        margin: 0px 30px;
+        padding-right: 10px;
+    }
+
+    .inicio{
+        padding-right: 3px;
+    }
+
+    .social-network ul li i {
+        color: #FF715B;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .burger-menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    header {
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .header-tres {
+        margin: 0px 20px 5px 0px;
+        padding: 50px 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        display: inline-flex;
+        width: 18%;
+        margin-left: 25px;
+    }
+
+    .buscador-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    .buscador-bar input {
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 10px;
+        padding-left: 10px;
+        width: 270px;
+        height: 33px;
+        border-radius: 1ch;
+    }
+
+    .buscador-bar i {
+        position: absolute;
+        font-size: 13px;
+        right: 18px;
+        top: 10px;
+        font-weight: bold;
+        color: #FF715B;
+    }
+
+    .buscador {
+        display: inline;
+        font-family: "Roboto", "sans-serif";
+        font-size: 13px;
+        border: solid 1px #ebebeb;
+        align-items: center;
+    }
+
+    .categoria-pais {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .carrito i {
+        color: #FF715B;
+        display: inline-flex;
+        font-size: 28px;
+        margin-left: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .carrito {
+        margin-top: 4.5px;
+    }
+
+    .user i {
+        display: inline-flex;
+        color: #414d86;
+        font-size: 30px;
+        margin-right: 30px;
+        display: inline-flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    nav {
+        background-color: #394476;
+        height: 50px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        display: inline-flex;
+        margin-bottom: 25px;
+        margin-left: 80px;
+        padding: 10px 0px;
+    }
+
+    nav ul li {
+        justify-content: space-around;
+        padding-right: 22px;
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .contenedor-main {
+        margin-top: 24px;
+        border: 2px dotted violet;
+    }
+    
+    footer {
+        background-color: #242F62;
+    }
+
+    .contenedor-footer {
+        margin: 0px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 24px 35px 30px 10px;
+    }
+
+    .top-nav li a {
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 15px;
+        margin: 1ch;
+        padding: 8px 15px;
+        border-top: solid 2px #8000FF;
+        border-bottom: solid 2px #8000FF;
+        border-radius: 1.5ch;
+    }
+
+
+    .bottom-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bottom-nav p {
+        position: relative;
+        display: inline-flex;
+        font-family: 'Lilita One';
+        color: #EDF2F4;
+        font-size: 18px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .bottom-nav input {
+        position: relative;
+        width: 320px;
+        background-color: black;
+        color: #EDF2F4;
+        border: solid 1px black;
+        border-radius: 2ch;
+        left: 15px;
+        z-index: 5;
+        padding: 5px 0px 5px 5px;
+        font-size: 15px;
+    }
+
+    .bottom-nav button {
+        position: relative;
+        width: 100px;
+        background-color: #8000FF;
+        color: #EDF2F4;
+        border-radius: 2ch;
+        border: solid 1px #8000FF;
+        z-index: 10;
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+
+    .linea-divisoria4 {
+        border: 0;
+        height: 12px;
+        margin: 25px 0px;
+        box-shadow: inset 0 12px 12px -12px #EDF2F4;
+    }
+
+
+    .social-network ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 26px 20px 0px;
+    }
+
+    .social-network ul li {
+        margin: 0px 30px;
+        padding-right: 10px;
+    }
+
+    .inicio{
+        padding-right: 3px;
+    }
+
+    .social-network ul li i {
+        color: #FF715B;
+    }
+}
