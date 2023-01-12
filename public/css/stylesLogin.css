@@ -61,20 +61,29 @@ a {
 }
 
 .contenedor-main {
-
-    border: 2px dotted orange;
+    margin: 50px 0px;
 }
 
 .top-main {
-    border: 2px dotted blue;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF2F4;
+    margin: 10px 20px 100px 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px #8000FF;
+    border-bottom: solid 2px #8000FF;
+    border-radius: 1ch;
 }
 
 .top-main p {
-
+    font-family: "Monserrat", sans-serif;
     margin-top: 10px;
-
     text-align: center;
-    font-weight: bold;
+    color: #FF715B;
+    font-weight: bolder;
 }
 
 .bottom-main {
@@ -93,19 +102,47 @@ a {
 .campos-de-texto input {
 
     margin: 10px 0px;
+    padding: 8px;
 }
 
 .botonera {
-
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .botonera a{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    margin: 10px 0px;
+    margin: 10px 20px 50px 20px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5px;
+}
+
+.boton1{
+    background-color: #8000FF;
+    color: white;
+    border: solid 1px #8000FF;
+    border-radius: 1.2ch;
+    font-size:14px;
+    padding: 5px 10px;
+}
+
+.boton2{
+    background-color: #FF715B;
+    color: white;
+    border: solid 1px #FF715B;
+    border-radius: 1.2ch;
+    font-size:14px;
+    padding: 5px 10px;
 }
 
 @media (max-width: 425px) {
@@ -407,8 +444,7 @@ a {
     }
 
     .contenedor-main {
-        margin-top: 50px;
-        border: 2px dotted violet;
+        margin-top: 90px;
     }
 
     footer {
@@ -635,8 +671,7 @@ a {
     }
 
     .contenedor-main {
-        margin-top: 0px;
-        border: 2px dotted violet;
+        margin-top: 30px;
     }
 
     footer {
@@ -848,7 +883,7 @@ a {
 
     nav ul {
         display: inline-flex;
-        margin-bottom: 0px;
+        margin-bottom: 30px;
         margin-left: 80px;
         padding: 10px 0px;
     }
@@ -897,45 +932,39 @@ a {
     }
 
 
-    .bottom-nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
     .bottom-nav p {
         position: relative;
         display: inline-flex;
         font-family: 'Lilita One';
         color: #EDF2F4;
-        font-size: 15px;
+        font-size: 18px;
         margin: 0px;
         align-items: center;
     }
 
     .bottom-nav input {
         position: relative;
-        width: 30%;
+        width: 320px;
         background-color: black;
         color: #EDF2F4;
         border: solid 1px black;
         border-radius: 2ch;
         left: 15px;
         z-index: 5;
-        padding: 2px 0px 1.5px 5px;
-        font-size: 13px;
+        padding: 5px 0px 5px 5px;
+        font-size: 15px;
     }
 
     .bottom-nav button {
         position: relative;
-        width: 35%;
+        width: 100px;
         background-color: #8000FF;
         color: #EDF2F4;
         border-radius: 2ch;
         border: solid 1px #8000FF;
         z-index: 10;
-        font-size: 14px;
+        font-size: 15px;
+        padding: 5px 0px;
     }
 
     .linea-divisoria4 {
@@ -978,7 +1007,7 @@ a {
     }
 
     header {
-        height: 280px;
+        height: 320px;
         margin-bottom: 20px;
     }
 
@@ -1072,7 +1101,7 @@ a {
 
     nav ul {
         display: inline-flex;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         margin-left: 80px;
         padding: 10px 0px;
     }
@@ -1090,8 +1119,7 @@ a {
     }
 
     .contenedor-main {
-        margin-top: 24px;
-        border: 2px dotted violet;
+        margin-top: 35px;
     }
     
     footer {

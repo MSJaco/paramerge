@@ -64,7 +64,6 @@ a {
     color: #8000FF;
     font-family: "Lilita One";
     font-size: 18px;
-    margin-left: 7.5%;
     font-weight: bolder;
  }
  
@@ -336,8 +335,8 @@ a {
         color: #8000FF;
         font-family: "Lilita One";
         font-size: 18px;
-        margin-left: 4.2%;
-        margin-top: 5%;
+        margin-left: 5%;
+        margin-top: 4.2%;
         font-weight: 900px;
         text-align: center;
     }
@@ -1206,7 +1205,7 @@ a {
     }
 
     header {
-        height: 320px;
+        height: 280px;
         margin-bottom: 20px;
     }
 
@@ -1300,7 +1299,7 @@ a {
 
     nav ul {
         display: inline-flex;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         margin-left: 80px;
         padding: 10px 0px;
     }
@@ -1327,14 +1326,14 @@ a {
         color: #8000FF;
         font-family: "Lilita One";
         font-size: 24px;
-        margin-left: 4.2%;
-        margin-top: 2%;
+
+        margin-top: 5%;
         font-weight: 900px;
         text-align: center;
      }
   
      .separador3 article {
-        margin: 0px 380px 0px 385px;
+        margin: 0px 200px 0px 276px;
      }
   
      .todos {
@@ -1344,7 +1343,7 @@ a {
         border-radius: 0.8ch;
         position: absolute;
         bottom: 30px;
-        left: 770px;
+        left: 520px;
         margin-top: 10px;
         box-sizing: border-box;
      }
@@ -1417,9 +1416,9 @@ a {
     .top-nav li a {
         font-family: 'Lilita One';
         color: #EDF2F4;
-        font-size: 15px;
+        font-size: 20px;
         margin: 1ch;
-        padding: 8px 15px;
+        padding: 8px 50px;
         border-top: solid 2px #8000FF;
         border-bottom: solid 2px #8000FF;
         border-radius: 1.5ch;
@@ -1438,27 +1437,27 @@ a {
         display: inline-flex;
         font-family: 'Lilita One';
         color: #EDF2F4;
-        font-size: 15px;
+        font-size: 20px;
         margin: 0px;
         align-items: center;
     }
 
     .bottom-nav input {
         position: relative;
-        width: 30%;
+        width: 220px;
         background-color: black;
         color: #EDF2F4;
         border: solid 1px black;
         border-radius: 2ch;
         left: 15px;
         z-index: 5;
-        padding: 2px 0px 1.5px 5px;
+        padding: 5px 0px 5px 8px;
         font-size: 13px;
     }
 
     .bottom-nav button {
         position: relative;
-        width: 35%;
+        width: 140px;
         background-color: #8000FF;
         color: #EDF2F4;
         border-radius: 2ch;
