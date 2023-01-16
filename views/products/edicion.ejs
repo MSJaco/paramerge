@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<%- include("./partials/head") %>
+
+    <!-- hoja de estilos -->
+
+    <link href="css/styles.css" rel="stylesheet">
+
+    <body>
+        <!-- header -->
+
+        <%- include("./partials/header") %>
+
+            <main>
+                <h2> Edición de Productos </h2>
+                <div class="edita-archivo">
+                    <div class="left-options">
+                        <button type="submit">
+                            <img class="img-prueba" src="/images/img-cafetera-moulinex.jpg" alt="buttonjpg"
+                                border="0" />
+                        </button>
+                    </div>
+
+                    <div class="right-options">
+                        <form action="/ID" method="POST">
+                            <label for="nombre">ID de producto a editar</label>
+                            <input type="Descrpción" name="nombre" id="ID">
+                        </form>
+                        <form action="/ID" method="POST">
+                            <label for="nombre">Nuevo nombre</label>
+                            <input type="Descrpción" name="nombre" id="ID">
+                        </form>
+                        <form action="/ID" method="POST">
+                            <label for="nombre">Precio</label>
+                            <input type="Descrpción" name="nombre" id="ID">
+                        </form>
+                        <form action="/ID" method="POST">
+                            <label for="categoria">Categorías</label>
+                            <select name="categorias" id="Categoría">
+                                <option value="buzo">Buzos</option>
+                                <option value="calzado">Calzado</option>
+                                <option value="pantalon">Pantalon</option>
+                                <option value="remeras">Remeras</option>
+                            </select>
+                        </form>
+                        <form action="/ID" method="POST">
+                            <label for="Talles">Talles</label>
+                            <select name="Talles" id="Talles">
+                                <option value="Small">S</option>
+                                <option value="Medium">M</option>
+                                <option value="Large">L</option>
+                                <option value="ExtraLarge">XL</option>
+                            </select>
+                        </form>
+                        <form class="descripcion" action="/ID" method="POST">
+                            <label for="Descripción">Descripción</label>
+                            <textarea name="comentario" id="comentario"> Inserte la Descripción del producto </textarea>
+                        </form>
+                        <button class="boton-editar" type="button">Editar</button>
+                    </div>
+                </div>
+            </main>
+
+            <!-- footer -->
+
+            <%- include("./partials/footer") %>
+
+    </body>
+
+</html>

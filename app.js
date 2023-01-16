@@ -9,7 +9,6 @@ var logger = require('morgan');
 
 // Llamamos a MainRouter
 var MainRouter = require('./routes/mainRouter');
-
 // var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
 
@@ -21,6 +20,8 @@ const port = process.env.PORT || 3000;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+// indicamos que carpetas vamos a usar
 
 app.use(logger('dev'));
 app.use(express.json());

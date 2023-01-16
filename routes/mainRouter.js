@@ -7,12 +7,18 @@ const mainController = require('../controllers/mainController')
 
 router.get('/', mainController.home);
 
-router.get('/description-page', mainController.descriptionPage);
+router.get('description-page', mainController.descriptionPage);
 
-router.get('/cart', mainController.cart);
+router.get('cart', mainController.cart);
 
-router.get('/register', mainController.register);
+router.get('edicion', mainController.edicion);
 
-router.get('/login', mainController.login);
+router.get('nuevoProducto', mainController.nuevoProducto);
+
+router.get('register', mainController.register);
+
+router.get('login', mainController.login);
+
+
 
 module.exports = router;

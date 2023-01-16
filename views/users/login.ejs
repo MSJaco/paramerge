@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<%- include("./partials/head") %>
+
+    <!-- hoja de estilos -->
+
+    <link rel="stylesheet" href="/css/stylesLogin.css">
+
+
+    <body>
+
+        <!-- header -->
+
+        <%- include("./partials/header") %>
+
+
+            <main>
+                <div class="contenedor-main">
+
+                    <div class="top-main">
+                        <p>Bienvenid@ a HouseClothing!</p>
+
+                        <p>LOG IN</p>
+                    </div>
+
+                    <div class="bottom-main">
+                        <div class="campos-de-texto">
+                            <input type="text" placeholder="Nombre de Usuario o mail" required>
+                            <input type="text" placeholder="Contrasena" required>
+                        </div>
+                        <div class="botonera">
+                            <a href="#"><input type="checkbox">Recuerdame</a>
+                            <div class="botones">
+                                <a href='/'><button class="boton1">Log in</button></a>
+                                <a href='/register'><button class="boton2">Sign up</button></a>
+                            </div>
+                            <a href="#">Olvidaste la contrasena?</a>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+            <!-- footer -->
+
+            <%- include("./partials/footer") %>
+
+    </body>
+
+</html>

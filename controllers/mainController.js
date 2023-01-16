@@ -1,5 +1,4 @@
 const path = require('path');  
-
 const controller = {
 
     home: (req, res) => {
@@ -10,14 +9,26 @@ const controller = {
 
     descriptionPage: (req, res) => {
     
-        // res.sendFile(path.join(__dirname, '../views/DescriptionPage.html'));
-        res.render('description-page')
+        //res.sendFile(path.join(__dirname, '../views/products/description-page.ejs'));
+         res.render('description-page') 
     },
     
     cart: (req, res) => {
     
         // res.sendFile(path.join(__dirname, '../views/cart.html'));
         res.render('cart')
+    },
+
+   edicion: (req, res) => {
+    
+        // res.sendFile(path.join(__dirname, '../views/cart.html'));
+        res.render('edicion')
+    },
+
+    nuevoProducto: (req, res) => {
+    
+        // res.sendFile(path.join(__dirname, '../views/cart.html'));
+        res.render('nuevoProducto')
     },
 
     register: (req, res) => {

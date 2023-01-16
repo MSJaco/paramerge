@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<%- include("./partials/head") %>
+
+    <!-- hoja de estilos -->
+
+    <link rel="stylesheet" href="/css/stylesDescriptionPage.css">
+
+
+    <body>
+
+        <!-- header -->
+
+        <%- include("./partials/header") %>
+
+            <main>
+
+                <!-- Seccion 1 contiene: imagen - bajo-foto(cuerpo) - descripcion - contador - agregar al carrito -->
+                <section class="seccion1">
+
+                    <div class="imagen">
+                        <img src="/img/snikers.png" class='snikers' alt="snikers">
+                    </div>
+
+                    <div class="bajo-foto">
+
+                        <div class="ruta">
+                            <a class='home-descriptionPage' href="#">Home ></a>
+                            <a class='home-descriptionPage' href="#"> DescriptionPage</a>
+                        </div>
+
+                        <h1>---PRODUCT NAME---</h1>
+
+                        <div class="precio-cuotas">
+
+                            <h3 class="precio">$ XXXX,XX</h3>
+                            <p class="cuotas">X Cuotas sin interes de $XXXX,XX</p>
+
+                        </div>
+
+                        <a href="#" class="myButton">S</a>
+                        <a href="#" class="myButton">S</a>
+                        <a href="#" class="myButton">S</a>
+
+                        <div class="accionables-bajo-foto">
+
+                            <span class="contador">
+                                <p>-</p>
+                                <p>1</p>
+                                <p>+</p>
+                            </span>
+
+                            <a href="#" class="agregar-al-carrito">AGREGAR AL CARRITO</a>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- seccion 2 - descripcion - cuidados - tabla -->
+
+                <section class="informacion-relevante">
+
+                    <div class="descripcion-cuidados">
+
+                        <span class="descripcion">
+                            <h5>Descripcion</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim dolorem tempora ad,
+                                blanditiis.
+                            </p>
+                        </span>
+                        <span class="cuidados">
+                            <h5>Cuidados</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim dolorem tempora ad,
+                                blanditiis.
+                            </p>
+                        </span>
+
+                    </div>
+                    <table class="tabla">
+
+                        <thead>
+                            <tr>
+                                <th>TALLE</th>
+                                <th>ANCHO</th>
+                                <th>LARGO</th>
+                                <th>MANGA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;1</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;2</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;3</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;4</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;5</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                                <td>&nbsp;54cm</td>
+                            </tr>
+                        <tbody>
+                    </table>
+
+                </section>
+
+
+            </main>
+
+            <!-- footer -->
+
+            <%- include("./partials/footer") %>
+
+    </body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<%- include("./partials/head") %>
+
+    <!-- hoja de estilos -->
+
+    <link rel="stylesheet" href="/css/stylesCart.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <body>
+
+        <!-- header -->
+
+        <%- include("./partials/header") %>
+
+
+            <main>
+
+                <div class="contenedor-main">
+                    <div class="top-main">
+                        <img src="/img/pexels-alex-wolf-mx-14401746.jpg" alt="imagen-producto">
+
+                        <div class="descripcion-producto">
+                            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                            <p>$XXXX,XX</p>
+                            <button>Delete</button>
+                        </div>
+                        <div class="contador">
+                            <p>-</p>
+                            <p>1</p>
+                            <p>+</p>
+                        </div>
+                    </div>
+
+                    <div class="middle-main">
+                        <h4>Cupon</h4>
+                        <div class="campo-de-texto">
+                            <input type="text" placeholder="Codigo de descuento">
+                            <button type="submit">Aplicar cupon</button>
+                        </div>
+                        <button type="submit">Actualizar carrito</button>
+                    </div>
+
+                    <div class="bottom-main">
+                        <h4>Total carrito</h4>
+                        <div class="subtotales">
+                            <h5>Subtotal</h5>
+                            <p>$XXXX,XX</p>
+                        </div>
+                        <div class="envio">
+                            <h5>Envio</h5>
+                            <input type="text" placeholder="Direccion">
+                        </div>
+                        <div class="finalizar">
+                            <h5>Total</h5>
+                            <P>$XXXX,XX</P>
+                            <button type="submit">Finalizar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- footer -->
+
+            <%- include("./partials/footer") %>
+
+    </body>
+
+</html>

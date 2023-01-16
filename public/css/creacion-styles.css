@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(min-width: 768px){
+    .crea-archivo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .right-options{
+        margin: auto;
+        font-size: 18px;
+    }
+    .boton-crear {
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 1000px){
+    .right-options {
+        font-size: 24px;
+        margin: auto;
+    }
+    .boton-crear {
+        margin-top: 20px;
+    }
+}
+
+.img-prueba {
+    width: 32vw;
+    height: 32vw;
+}
